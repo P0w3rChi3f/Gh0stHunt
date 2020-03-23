@@ -1,4 +1,4 @@
-# Gh0stHunt Fork (from Tbar317)  
+# Gh0stHunt  
 
 Gh0stHunt is an Incident Response Investigative Framework written in PowerShell that computer network defenders, hunt teams and forensic analysts can use to retrieve and analyze information, baseline, hunt for Indicators of Compromise (IOCs) and mitigate IOCs across remote Windows systems. All functions are driven by input from the operator and provides output throughout each function so the operator understands what actions are being taken.  
 

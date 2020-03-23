@@ -1,6 +1,4 @@
-﻿# Forked from https://github.com/tbar317/Gh0stHunt
-
-<#
+﻿<#
 .SYNOPSIS  
     Gh0stHunt is an Incident Repsonse Investigative Framework written in PowerShell that computer network defenders, hunt teams and forensic analysts can use to retrieve and analyze information from remote Windows systems. The framework will baseline and enumerate systems and domains, hunt for known IOCs, and compare current results against baseline. The 
     framework also parses a number Windows Event Logs types. The framework uses a text-based user interface to allow any operator to be able run the functions regardless of their experience level. The framework will require administrative rights and WinRM on the remote systems, as well as the WinRM port to be allowed thru the Windows Firewall. WinRM and PSRemoting must be enabled on the operators system.
@@ -61,6 +59,7 @@
 #>
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
+
 Function Show-MainMenu {
     param (
     [string]$Title = "Main Menu"
